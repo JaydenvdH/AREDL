@@ -14,11 +14,17 @@
             "percent": 100,
             "hz": 240
 },
-                {
+      {
             "user": "ElectroLight7",
             "link": "https://youtu.be/PiCmp53CRr0",
             "percent": 100,
             "hz": 240
+      },{
+            "user": "T'im",
+            "link": "https://www.youtube.com/watch?v=3r7xMDRvcZY",
+            "percent": 100,
+            "hz": 240
+
 }
     ]
 }
