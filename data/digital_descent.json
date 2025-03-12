@@ -13,13 +13,24 @@
             "percent": 100,
             "hz": 288
 },
+
+
 {
             "user": "Arveal",
             "link": "https://www.youtube.com/watch?v=8ZMGnOrqLc0",
             "percent": 100,
             "hz": 240
 },
-        {
+       
+{
+            "user": "T'im",
+            "link": "https://www.youtube.com/watch?v=MVoMDvBWy74",
+            "percent": 100,
+            "hz": 288
+
+},
+
+ {
             "user": "Couropsnov",
             "link": "https://www.youtube.com/watch?v=utHItHbV-uU",
             "percent": 100,
@@ -31,5 +42,5 @@
             "percent": 100,
             "hz": 300
 }
- ]
+   ]
 }
