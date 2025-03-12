@@ -3,10 +3,18 @@
     "name": "Erebus",
     "author": "BoldStep",
     "creators": ["Ilrell", "Rustam"],
-    "verifier": "Arveal",
-    "verification": "https://youtu.be/wWW5_NO79ko?si=V1lgHyXahf5WHeTJ",
+    "verifier": "T'im",
+    "verification": "https://www.youtube.com/watch?v=MuIe26x4n4w",
     "percentToQualify": 100,
     "records": [
+
+{
+    "user": "Arveal",
+    "link": "https://youtu.be/wWW5_NO79ko?si=V1lgHyXahf5WHeTJ",
+    "percent": 100,
+    "hz": 240
+},
+
 {
     "user": "ElectroLight7",
     "link": "https://www.youtube.com/watch?v=QgRk_Scp05A",
