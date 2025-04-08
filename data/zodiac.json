@@ -33,28 +33,33 @@
 
 },
         {
-                       "user": "BreadGuyGD",
+            "user": "BreadGuyGD",
             "link": "https://www.youtube.com/watch?v=Tc5cUVdl3Zc",
             "percent": 100,
             "hz": 240 
         },
                 {
-                       "user": "zcylix",
+            "user": "zcylix",
             "link": "https://youtu.be/IZkUruIiFuI?si=nrQni4Kq4OhuKnQ7",
             "percent": 100,
             "hz": 240 
         },
-                        {
-                       "user": "Arveal",
+         {
+            "user": "Arveal",
             "link": "https://youtu.be/ONqv6Muqwc8?si=6DxXEVeXRPfUSX-L",
             "percent": 100,
             "hz": 240 
         },
         {
-                       "user": "GDaan",
+            "user": "GDaan",
             "link": "https://youtu.be/PvCJOKBz0so?si=x0G44VUZtQ4wo2wd",
             "percent": 100,
             "hz": 240 
+        }, {
+            "user": "Vankley",
+            "link": "https://www.youtube.com/watch?v=BGtjikCuKO4",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
