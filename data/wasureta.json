@@ -83,12 +83,17 @@
             "percent": 100,
             "hz": 240
 },
-                                {
+ {
         
             "user": "Shub",
             "link": "https://youtu.be/e7bmoLEmubY?si=24q3husgbPq5B7Fv",
             "percent": 100,
             "hz": 240
+},  {
+            "user": "Cric2",
+            "link": "https://www.youtube.com/watch?v=oThopea1STk",
+            "percent": 100,
+            "hz": 120
 }
     ]
 }
