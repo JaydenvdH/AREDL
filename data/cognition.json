@@ -46,6 +46,17 @@
     "link": "https://www.youtube.com/watch?v=obKNDvVwnys",
     "percent": 100,
     "hz": 360
+}, 
+        {
+    "user": "Rafferd",
+    "link": "https://www.youtube.com/watch?v=O3ga18rEBI4",
+    "percent": 100,
+    "hz": 488
+},  {
+    "user": "CoolCodin",
+    "link": "https://www.youtube.com/watch?v=G--8ZLY4paQ",
+    "percent": 100,
+    "hz": 240
 
 }
     ]
