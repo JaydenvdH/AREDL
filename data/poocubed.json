@@ -3,16 +3,9 @@
     "name": "poocubed",
     "author": "btLisp",
     "creators": ["btLisp", "Aespha", "Faraox", "Aranda", "TypicalGMD", "ph0", "Earthum"],
-    "verifier": "Kyass",
-    "verification": "https://youtu.be/fzL31vai1ms",
+    "verifier": "Drakenfontein",
+    "verification": "https://youtu.be/mj8-e5Bw2aQ?si=ih_xSw6oHpL8Dq9y",
     "percentToQualify": 100,
     "password": "688255",
-    "records": [
-    {
-            "user": "Zoink",
-            "link": "https://youtu.be/NPvKxItz5Io",
-            "percent": 100,
-            "hz": 360
-}
-    ]
+    "records": []
 }
