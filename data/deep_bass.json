@@ -6,5 +6,13 @@
     "verifier": "AstralNova",
     "verification": "https://youtu.be/aUrAr8aFjME?si=7ajARxJHHroYwefU",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "Enzo",
+            "link": "https://youtu.be/7FBFH0G297w?si=zrHG37516a-rodI1",
+            "percent": 100,
+            "hz": 240
+            
+}
+    ]
     }
