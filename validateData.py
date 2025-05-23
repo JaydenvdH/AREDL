@@ -47,7 +47,6 @@ def validate_data():
     validator = URLValidator()
     current_dir = os.path.join(os.getcwd(), "data")
     list_path = os.path.join(current_dir, "_list.json")
-    legacy_list_path = os.path.join(current_dir, "_legacy.json")
     had_error = False
     with open(list_path, "r") as file:
         try:
@@ -60,17 +59,6 @@ def validate_data():
             print(f"Validation failed for _list.json: {str(e)}")
             sys.exit(1)
 
-    with open(legacy_list_path, "r") as file:
-        try:
-            legacy = json.load(file)
-            validate(instance=legacy, schema=level_list_schema)
-            levels.extend(legacy)
-        except ValueError as e:
-            print(f"Invalid json in file _legacy.json: {str(e)}")
-            sys.exit(1)
-        except exceptions.ValidationError as e:
-            print(f"Validation failed for _legacy.json: {str(e)}")
-            sys.exit(1)
 
     for filename in levels:
         file_path = os.path.join(current_dir, f"{filename}.json")
