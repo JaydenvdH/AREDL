@@ -6,6 +6,11 @@
     "verifier": "w5678rr",
     "verification": "https://youtu.be/2G5mzC417uM?si=VucZfT7X_9NXvFAN",
     "percentToQualify": 100,
-    "records": [
+    "records": [{
+            "user": "TJgames",
+            "link": "https://youtu.be/x3n5pwK5Gts?si=PS9mfiWedo_ppnts",
+            "percent": 100,
+            "hz": 240
+}
     ]
 }
