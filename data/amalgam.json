@@ -14,6 +14,12 @@
             "link": "https://www.youtube.com/watch?v=uLcxv_OThq4",
             "percent": 100,
             "hz": 144
+    },
+        {
+            "user": "Caveman_Melvin",
+            "link": "https://youtu.be/J3iz0WlHDEU?si=28PMUlQQjRdAIBgi",
+            "percent": 100,
+            "hz": 240
     }
     ]
 }
