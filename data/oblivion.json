@@ -6,5 +6,12 @@
     "verifier": "Swiffel",
     "verification": "https://youtu.be/gDdcr7KAiyc?t=305",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "JannisTE",
+            "link": "https://youtu.be/8DMRk8NPpoM?si=V_KHlllgtfavrApE",
+            "percent": 100,
+            "hz": 240
+    }
+    ]
 }
