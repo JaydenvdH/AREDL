@@ -3,22 +3,9 @@
     "name": "MINUSdry",
     "author": "CDMusic",
     "creators": ["CDMusic", "Sevant", "Varium"],
-    "verifier": "Varium",
-    "verification": "https://www.youtube.com/watch?v=YvA8ehhzz0Q&t=116s",
+    "verifier": "w5678rr",
+    "verification": "https://youtu.be/SihxMQj4MwM?si=mg8HZwUJt9VYMW48",
     "percentToQualify": 100,
     "password": "No Copy",
-    "records": [
-        {
-            "user": "Zoink",
-            "link": "https://youtu.be/sKGrmJV9xdA",
-            "percent": 100,
-            "hz": 360
-},
-{
-            "user": "ViperVenom95",
-            "link": "https://www.youtube.com/watch?v=DMpJdr11XZs&ab_channel=ViperVenom95",
-            "percent": 100,
-            "hz": 360
-}
-    ]
+    "records": []
 }
