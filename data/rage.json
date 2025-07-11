@@ -3,34 +3,9 @@
     "name": "Rage",
     "author": "nSwish",
     "creators": ["StarkytheSalad", "Yoonsr", "Morin", "Spectral", "Realvet", "hawkyre"],
-    "verifier": "nSwish",
-    "verification": "https://www.youtube.com/watch?v=xrpK1jpwSu0",
+    "verifier": "rakhwomaninov",
+    "verification": "https://youtu.be/hVUp6-WuB4I?si=BILYetCLcfUzBNej",
     "percentToQualify": 100,
     "password": "No Copy",
-    "records": [
-        {
-            "user": "nei",
-            "link": "https://youtu.be/0DQ_yvaxoVg",
-            "percent": 100,
-            "hz": 360
-},
-        {
-            "user": "Matter",
-            "link": "https://youtu.be/ExR1qU-zTxo",
-            "percent": 100,
-            "hz": 288
-},
-        {
-            "user": "MasterOfDonkeys",
-            "link": "https://youtu.be/DxO_i3dgEH4",
-            "percent": 100,
-            "hz": 280
-},
-        {
-            "user": "BANA1411",
-            "link": "https://youtu.be/yM4hmPBn3YE",
-            "percent": 100,
-            "hz": 240
-}
-    ]
+    "records": []
 }
