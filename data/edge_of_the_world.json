@@ -7,25 +7,30 @@
     "verification": "https://www.youtube.com/watch?v=fmP1mixLilo",
     "percentToQualify": 100,
     "records": [
-        {
-        "user": "ElectroLight7",
-        "link": "https://www.youtube.com/watch?v=ygjDDBFeAnc",
-        "percent": 100,
-        "hz": 288
-},
-{
+    {
+    "user": "ElectroLight7",
+    "link": "https://www.youtube.com/watch?v=ygjDDBFeAnc",
+    "percent": 100,
+    "hz": 288
+   },
+   {
     "user": "Dagger",
     "link": "https://www.youtube.com/watch?v=Oycd4ykKiG0",
     "percent": 100,
     "hz": 144
 
 },
-        {
+{
     "user": "eliooenver",
     "link": "https://youtu.be/vl2HemuH4Og?si=5ksKnSAoIXuJvfPT",
     "percent": 100,
     "hz": 240
-
+},
+{
+    "user": "ajentovu",
+    "link": "https://www.youtube.com/watch?v=xfLui63_T74",
+    "percent": 100,
+    "hz": 240
 }
     ]
 }
