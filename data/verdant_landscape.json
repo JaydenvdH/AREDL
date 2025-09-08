@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/X5ymNjG97mk?si=H6F1FsaYWyGdgAgo",
     "percentToQualify": 100,
     "password": "446799",
-    "records": []
+    "records": [
+        {
+        "user": "Cejelost",
+    "link": "https://www.youtube.com/watch?v=5VVsCjRX9u0",
+    "percent": 100,
+    "hz": 240
+}
+    ]
 }
