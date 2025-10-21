@@ -17,7 +17,13 @@
             "user": "Melted",
             "link": "https://youtu.be/vz4RhPA4lLQ?si=5glO8vt2LUiDGldP",
             "percent": 100,
-            "hz": 9023890328902428
-    }
+            "hz": 144
+},
+{
+            "user": "Vankley",
+            "link": "https://www.youtube.com/watch?v=Ne1b-zS88u4",
+            "percent": 100,
+            "hz": 240         
+}
     ]
 }
