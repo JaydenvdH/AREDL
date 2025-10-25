@@ -94,6 +94,12 @@
             "link": "https://www.youtube.com/watch?v=oThopea1STk",
             "percent": 100,
             "hz": 120
+},
+        {
+            "user": "BossOfCats",
+            "link": "https://youtu.be/ootLCQcPZhA",
+            "percent": 100,
+            "hz": 67
 }
     ]
 }
