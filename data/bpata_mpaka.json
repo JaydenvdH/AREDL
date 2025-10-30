@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/vYEFa1Kiy8A?si=Qk15An-VdYNdlyC3",
     "percentToQualify": 100,
     "password": "Free Copy",
-    "records": []
+    "records": [
+        {
+            "user": "JannisTE",
+            "link": "https://youtu.be/q94XzggsTus?si=a-iOiZHDJoFjVtRY",
+            "percent": 100,
+            "hz": 240
+}
+    ]
 }
