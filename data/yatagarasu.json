@@ -96,6 +96,13 @@
             "link": "https://www.youtube.com/watch?v=bQSWBSeRuN8",
             "percent": 100,
             "hz": 240 
-        }         
+        },
+        {
+
+            "user": "Electro",
+            "link": "https://youtu.be/a7GW-_Mr8NY?si=QoVJRpFWRAsFR9rs",
+            "percent": 100,
+            "hz": 240 
+        }   
     ]
 }
