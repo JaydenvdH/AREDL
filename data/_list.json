@@ -111,6 +111,7 @@
     "visible_ray",
     "xray",
     "hardry",
+    "apotheosis",
     "kowareta",
     "dump",
     "szyslak",
@@ -147,6 +148,5 @@
     "sonic_wave",
     "shmarley_ville",
     "cersia_difficult",
-    "cosmic_ray",
-    "yatagarasu"
+    "cosmic_ray"
 ]
