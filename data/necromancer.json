@@ -8,11 +8,21 @@
     "percentToQualify": 100,
     "password": "555555",
     "records": [
-        {
-        "user": "BreadGuyGD",
+        
+  {
+    "user": "BreadGuyGD",
     "link": "https://www.youtube.com/watch?v=5S3gf9rZ0Uk",
     "percent": 100,
     "hz": 240
-}
+},
+
+ {
+    "user": "Airi",
+    "link": "https://youtu.be/15vsUM8Kj18",
+    "percent": 100,
+    "hz": 144
+ }
+
+        
     ]
 }
