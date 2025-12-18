@@ -26,11 +26,19 @@
             "percent": 100,
             "hz": 240
 },
-         {
+          {
             "user": "DeltaPhantom1",
             "link": "https://youtu.be/tNKiC1tYzAk?si=LuaMtRtDQ718fldF",
             "percent": 100,
             "hz": 240
-}
+},
+
+        {
+            "user": "BossOfCats",
+            "link": " https://youtu.be/n5MpWUiCvpM?si=a9V_4W1yOmGjAnRt",
+            "percent": 100,
+            "hz": 480
+}          
     ]
 }
+
