@@ -7,5 +7,12 @@
     "verification": "https://www.youtube.com/watch?v=BS-PyMqmOv0",
     "percentToQualify": 100,
     "password": "80421",
-    "records": [ ]
+    "records": [
+        {
+    "user": "w5678rr",
+    "link": "https://youtu.be/6DB_6-lVrhs?si=jujxUsV_SVmIpOWt",
+    "percent": 100,
+    "hz": 240 
+}
+    ]
 }
