@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/uhDZb9-vBH0?si=oeCRkaivbV4C_L1k",
     "percentToQualify": 100,
     "password": "000115",
-    "records": []
+    "records": [
+        {
+            "user": "Melted",
+            "link": "https://youtu.be/j2KaSP_nK20?si=XO7IDFuh3uKCBr8N",
+            "percent": 100,
+            "hz": 240
+    }
+    ]
 }
