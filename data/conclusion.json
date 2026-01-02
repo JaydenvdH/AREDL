@@ -6,6 +6,13 @@
     "verifier": "eliooenver",
     "verification": "https://www.youtube.com/watch?v=udhXJeu3ups",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+        {
+            "user": "Melted",
+            "link": "https://youtu.be/tdgm6GHtE3I?si=pnMOa4KL1SvSwd_k",
+            "percent": 100,
+            "hz": 240
+    }
+    ]
     
 }
