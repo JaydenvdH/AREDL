@@ -43,6 +43,18 @@
             "link": "https://youtu.be/No-RDMy9n60",
             "percent": 100,
             "hz": 240
-}
+}, {
+            "user": "Joey_Visser23",
+            "link": "https://youtu.be/TdZi4OQI1QI?si=aYzsbpfyebeXtSpD",
+            "percent": 100,
+            "hz": 240
+}, 
+        {
+            "user": "Knuggel",
+            "link": "https://www.youtube.com/watch?v=t3mnZIRr-S8",
+            "percent": 100,
+            "hz": 720
+
+        }        
     ]
 }
