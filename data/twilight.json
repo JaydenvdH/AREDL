@@ -15,6 +15,13 @@
             "hz": 240
         },
        
+       {
+            "user": "Vankley",
+            "link": "https://www.youtube.com/watch?v=QNxAvv-gpVE",
+            "percent": 100,
+            "hz": 240
+        },
+        
         {
             "user": "Melted",
             "link": "https://youtu.be/zjj532rcbjw?si=buKJ4BkdfPKm5QGD",
@@ -22,13 +29,6 @@
             "hz": 144
         },
 
-      {
-            "user": "Vankley",
-            "link": "https://www.youtube.com/watch?v=QNxAvv-gpVE",
-            "percent": 100,
-            "hz": 240
-        },
-        
   {
             "user": "djackv",
             "link": "https://www.youtube.com/watch?v=xBMEjQYGcQE",
