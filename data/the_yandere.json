@@ -13,6 +13,13 @@
             "link": "https://www.youtube.com/watch?v=kMLJO6eGj-I",
             "percent": 100,
             "hz": 60
+},
+        {
+            "user": "CoolCodin",
+            "link": "https://www.youtu.be/yY7uBCtKpc4",
+            "percent": 100,
+            "hz": 240
 }
+        
     ]
 }
