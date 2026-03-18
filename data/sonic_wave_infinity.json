@@ -6,5 +6,12 @@
     "verifier": "Jitt3rGD",
     "verification": "https://youtu.be/PJGGk9UxF_I?si=mFPmcE1K5Wf1Vz0j",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+{    
+            "user": "Majin",
+            "link": "https://youtu.be/cyc5XBNm-5Y",
+            "percent": 100,
+            "hz": 480
+}
+    ]
 }
