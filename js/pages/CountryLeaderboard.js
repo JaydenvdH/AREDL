@@ -160,7 +160,7 @@ data: () => ({
     );
 
     // Add "All" at the start
-    this.provinces = ["All", ...Object.keys(leaderboard)];
+    this.provinces = ["All", ...provinces];
     this.selectedProvince = "All";
 
     this.err = err;
