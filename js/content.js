@@ -184,10 +184,21 @@ export async function fetchLeaderboard() {
 export async function fetchCountryLeaderboard() {
     const list = await fetchList();
     const packResult = await (await fetch(`${dir}/_packlist.json`)).json();
+
+    // NEW: load user -> province map
+    let userMap = {};
+    try {
+        const res = await fetch(`${dir}/_users.json`);
+        userMap = await res.json();
+    } catch {
+        userMap = {};
+    }
+
     const scoreMap = {};
     const errs = [];
     const packMultiplier = 1.5;
-    const scoreLookup = calculateScores(list.length)
+    const scoreLookup = calculateScores(list.length);
+
     list.forEach(([level, err], rank) => {
         if (err) {
             errs.push(err);
@@ -199,12 +210,20 @@ export async function fetchCountryLeaderboard() {
             Object.keys(scoreMap).find(
                 (u) => u.toLowerCase() === level.verifier.toLowerCase()
             ) || level.verifier;
+
         scoreMap[verifier] ??= {
+            province:
+                userMap[
+                    Object.keys(userMap).find(
+                        (u) => u.toLowerCase() === verifier.toLowerCase()
+                    )
+                ] || "Unknown",
             verified: [],
             completed: [],
             progressed: [],
             packs: [],
         };
+
         const { verified } = scoreMap[verifier];
         verified.push({
             rank: rank + 1,
@@ -213,13 +232,21 @@ export async function fetchCountryLeaderboard() {
             link: level.verification,
             path: level.path,
         });
+
         // Records
         level.records.forEach((record) => {
             const user =
                 Object.keys(scoreMap).find(
                     (u) => u.toLowerCase() === record.user.toLowerCase()
                 ) || record.user;
+
             scoreMap[user] ??= {
+                province:
+                    userMap[
+                        Object.keys(userMap).find(
+                            (u) => u.toLowerCase() === user.toLowerCase()
+                        )
+                    ] || "Unknown",
                 verified: [],
                 completed: [],
                 progressed: [],
@@ -227,6 +254,7 @@ export async function fetchCountryLeaderboard() {
             };
 
             const { completed, progressed } = scoreMap[user];
+
             if (record.percent === 100) {
                 completed.push({
                     rank: rank + 1,
@@ -248,6 +276,7 @@ export async function fetchCountryLeaderboard() {
             });
         });
     });
+
     for (let user of Object.entries(scoreMap)) {
         let levels = [...user[1]["verified"], ...user[1]["completed"]].map(
             (x) => x["path"]
@@ -257,23 +286,9 @@ export async function fetchCountryLeaderboard() {
                 user[1]["packs"].push(pack);
             }
         }
-        // for (let pack of user[1]["packs"]) {
-        //     const packLevelScores = [];
-        //     const allUserLevels = [
-        //         ...user[1]["verified"],
-        //         ...user[1]["completed"],
-        //     ];
-        //     for (let level of pack["levels"]) {
-        //         let userLevel = allUserLevels.find((lvl) => lvl.path == level);
-        //         packLevelScores.push(userLevel.score);
-        //     }
-        //     let packScore = 0;
-        //     packLevelScores.forEach((score) => (packScore += score));
-        //     packScore = packScore * 1.5;
-        // }
     }
 
-    // Wrap in extra Object containing the user and total score
+    // Build normal leaderboard entries
     const res = Object.entries(scoreMap).map(([user, scores]) => {
         const { verified, completed, progressed } = scores;
 
@@ -296,18 +311,33 @@ export async function fetchCountryLeaderboard() {
         let totalWithoutBonus = [verified, completed, progressed]
             .flat()
             .reduce((prev, cur) => prev + cur.score, 0);
-        const total = totalWithoutBonus - packScore + packScoreMultiplied
+
+        const total = totalWithoutBonus - packScore + packScoreMultiplied;
 
         return {
             user,
+            province: scores.province, // NEW
             total: round(total),
             packBonus: round(total - totalWithoutBonus),
             ...scores,
         };
     });
 
-    // Sort by total score
-    return [res.sort((a, b) => b.total - a.total), errs];
+    // Group by province
+    const provinceMap = {};
+
+    for (const player of res) {
+        const province = player.province || "Unknown";
+        provinceMap[province] ??= [];
+        provinceMap[province].push(player);
+    }
+
+    // sort each province leaderboard
+    for (const province in provinceMap) {
+        provinceMap[province].sort((a, b) => b.total - a.total);
+    }
+
+    return [provinceMap, errs];
 }
 
 export async function fetchPacks() {
