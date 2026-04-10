@@ -138,6 +138,11 @@ data: () => ({
     `,
     computed: {
         entries() {
+            if (this.selectedProvince === "All") {
+                return Object.values(this.leaderboard)
+                    .flat()
+                    .sort((a, b) => b.total - a.total);
+            }
             return this.leaderboard[this.selectedProvince] || [];
         },
         entry() {
@@ -145,15 +150,17 @@ data: () => ({
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchCountryLeaderboard();
+    const [leaderboard, err] = await fetchCountryLeaderboard();
 
-        this.leaderboard = leaderboard;
-        this.provinces = Object.keys(leaderboard);
-        this.selectedProvince = this.provinces[0];
+    this.leaderboard = leaderboard;
 
-        this.err = err;
-        this.loading = false;
-    },
+    // Add "All" at the start
+    this.provinces = ["All", ...Object.keys(leaderboard)];
+    this.selectedProvince = "All";
+
+    this.err = err;
+    this.loading = false;
+},
     methods: {
         localize,
         getFontColour,
