@@ -154,6 +154,11 @@ data: () => ({
 
     this.leaderboard = leaderboard;
 
+    // Filter out "Unknown" button
+    const provinces = Object.keys(leaderboard).filter(
+        (p) => p !== "Unknown"
+    );
+
     // Add "All" at the start
     this.provinces = ["All", ...Object.keys(leaderboard)];
     this.selectedProvince = "All";
