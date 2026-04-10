@@ -22,6 +22,7 @@
     "bpata_mpaka",
     "natural_disaster",
     "oblivion",
+    "viprin_ufo",
     "the_golden",
     "verdant_landscape",
     "unknown",
@@ -125,7 +126,7 @@
     "farthest_outpost",
     "ouroboros",
     "connect",
-     "ourwa",
+    "ourwa",
     "visible_ray",
     "xray",
     "hardry",
@@ -147,6 +148,5 @@
     "requiem",
     "eternal_moment",
     "edge_of_the_world",
-    "controller",
-    "omega"
+    "controller"
 ]
