@@ -92,3 +92,14 @@
 .page-leaderboard .player .table a:hover {
     text-decoration: underline;
 }
+.rank-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.1;
+}
+
+.global-rank {
+    font-size: 0.7em;
+    opacity: 0.6;
+}

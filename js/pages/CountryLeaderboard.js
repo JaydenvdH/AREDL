@@ -60,7 +60,9 @@ data: () => ({
         <div class="player-container" v-if="entry">
             <div class="player">
                 <h2>
-                    #{{ selected + 1 }} {{ entry.user }} - 
+                    #{{ selected + 1 }}
+                    <span class="global-rank">(#{{ getGlobalRankByUser(entry) }})</span>
+                    {{ entry.user }} - 
                     {{ entry.verified.length + entry.completed.length }} demons
                 </h2>
                 <h3>{{ entry.total }} points</h3>
@@ -169,5 +171,14 @@ data: () => ({
     methods: {
         localize,
         getFontColour,
+
+        // Helper function to grab a specified user's global rank
+        getGlobalRankByUser(user) {
+            const flat = Object.values(this.leaderboard).flat();
+
+            const index = flat.findIndex((u) => u.user === user.user);
+
+            return index + 1;
+        },
     },
 };
