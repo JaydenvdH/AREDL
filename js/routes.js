@@ -11,4 +11,5 @@ export default [
     { path: '/roulette', component: Roulette },
     { path: '/countryleaderboard', component: CountryLeaderboard },
     { path: '/countrylist', component: CountryList },
+    { path: '/betainfo', component: BetaInfo },
 ];
