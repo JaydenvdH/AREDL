@@ -157,33 +157,44 @@ data: () => ({
         },
     },
     async mounted() {
-    const [leaderboard, err] = await fetchCountryLeaderboard();
+        const [leaderboard, err] = await fetchCountryLeaderboard();
 
-    this.leaderboard = leaderboard;
+        this.leaderboard = leaderboard;
 
-    // Filter out "Unknown" button
-    const provinces = Object.keys(leaderboard).filter(
-        (p) => p !== "Unknown"
-    );
+        // Filter out "Unknown" button
+        const provinces = Object.keys(leaderboard).filter(
+            (p) => p !== "Unknown"
+        );
 
-    // Add "All" at the start
-    this.provinces = ["All", ...provinces];
-    this.selectedProvince = "All";
+        // Add "All" at the start
+        this.provinces = ["All", ...provinces];
+        this.selectedProvince = "All";
 
-    this.err = err;
-    this.loading = false;
-},
+        this.err = err;
+        this.loading = false;
+
+        this.flatLeaderboard = Object.values(this.leaderboard)
+        .flat()
+        .sort((a, b) => b.total - a.total);
+
+        this.globalRankMap = {};
+
+        this.flatLeaderboard.forEach((u, i) => {
+            this.globalRankMap[u.user.toLowerCase()] = i + 1;
+        });
+    },
     methods: {
         localize,
         getFontColour,
 
         // Helper function to grab a specified user's global rank
         getGlobalRankByUser(user) {
-            const flat = Object.values(this.leaderboard).flat();
+            if (!user) return 0;
 
-            const index = flat.findIndex((u) => u.user === user.user);
-
-            return index + 1;
+            return (
+                this.globalRankMap[user.user?.toLowerCase()] || 0
+            );
         },
+        
     },
 };
