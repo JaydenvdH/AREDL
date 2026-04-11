@@ -106,3 +106,7 @@
     margin: 0;
     padding: 0;
 }
+.page-leaderboard .board td {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
