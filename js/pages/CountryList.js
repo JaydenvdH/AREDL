@@ -39,12 +39,21 @@ export default {
                 <table class="list" v-if="filteredList">
                     <tr v-for="([level, err], i) in filteredList">
                         <td class="rank">
-                            <p v-if="i + 1 <= 999" class="type-label-lg">#{{ i + 1 }}</p>
-                            <p v-else class="type-label-lg">Legacy</p>
+                            <div class="rank-block">
+                                <p v-if="i + 1 <= 999" class="type-label-lg">#{{ i + 1 }}</p>
+                                <p v-else class="type-label-lg">Legacy</p>
+
+                                <p v-if="level" class="global-rank">
+                                    (#{{ getGlobalRankByLevel(level) }})
+                                </p>
+                            </div>
                         </td>
+
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
                             <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <span class="type-label-lg">
+                                    {{ level?.name || \`Error (\${err}.json)\` }}
+                                </span>
                             </button>
                         </td>
                     </tr>
@@ -286,7 +295,7 @@ export default {
         score,
         getFontColour,
 
-        // Helper function to grab the global rank, no matter the province selected
+        // Helper function to grab the global rank of current selected level
         getGlobalRank() {
             if (!this.level) return 0;
 
@@ -294,6 +303,13 @@ export default {
                 ([lvl]) => lvl && lvl.name === this.level.name
             );
 
+            return index + 1;
+        },
+        // Helper function to grab the global rank of a specified level
+        getGlobalRankByLevel(level) {
+            const index = this.list.findIndex(
+                ([lvl]) => lvl && lvl.path === level.path
+            );
             return index + 1;
         },
         // Helper function to grab the province rank
