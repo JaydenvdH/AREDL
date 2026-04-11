@@ -11,7 +11,7 @@ export function embed(video) {
 
 export function localize(num) {
     return Number(num).toLocaleString(undefined, {
-        minimumFractionDigits: 0,
+        minimumFractionDigits: 1,
         maximumFractionDigits: 1,
     });
 }
