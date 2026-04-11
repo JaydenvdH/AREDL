@@ -43,7 +43,12 @@ data: () => ({
             <table class="board">
                 <tr v-for="(ientry, i) in entries">
                     <td class="rank">
-                        <p class="type-label-lg">#{{ i + 1 }}</p>
+                        <div class="rank-block">
+                            <p class="type-label-lg">#{{ i + 1 }}</p>
+                            <p class="global-rank">
+                                (#{{ getGlobalRankByUser(ientry) }})
+                            </p>
+                        </div>
                     </td>
                     <td class="total">
                         <p class="type-label-lg">{{ localize(ientry.total) }}</p>
