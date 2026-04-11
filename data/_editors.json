@@ -21,12 +21,13 @@
             "role": "dev",
             "members": [
                 {
-                    "name":"Padahk",
-                    "link": "https://youtube.com/@Padahk?si=_M425h2h0f1AVgmn"
+                    "name": "Padahk",
+                    "link": "https://youtube.com/@Padahk?si=_M425h2h0f1AVgmn" 
+                },
+                {
+                    "name": "Melted",
+                    "link": "https://www.youtube.com/@melted_nl"
                 }
-
-                
-            
          ]
       }
  ]
