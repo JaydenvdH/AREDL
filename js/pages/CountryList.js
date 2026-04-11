@@ -67,7 +67,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, 100, level.percentToQualify, filteredList.length) }}</p>
+                            <p>{{ score(getGlobalRank(), 100, level.percentToQualify, filteredList.length) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
@@ -281,5 +281,16 @@ export default {
         embed,
         score,
         getFontColour,
+
+        // Helper function to grab the global rank, no matter the province selected
+        getGlobalRank() {
+            if (!this.level) return 0;
+
+            const index = this.list.findIndex(
+                ([lvl]) => lvl && lvl.name === this.level.name
+            );
+
+            return index + 1;
+        }
     },
 };
