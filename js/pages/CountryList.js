@@ -145,43 +145,83 @@ export default {
         store,
     }),
     computed: {
-        filteredList() {
-            if (this.selectedProvince === "All") return this.list;
+    filteredList() {
+        if (this.selectedProvince === "All") return this.list;
 
-            return this.list.filter(([level]) => {
-                if (!level) return false;
+        return this.list.filter(([level]) => {
+            if (!level) return false;
 
-                return level.records.some((r) => {
-                    const province =
-                        this.userMap[
-                            Object.keys(this.userMap).find(
-                                (u) => u.toLowerCase() === r.user.toLowerCase()
-                            )
-                        ] || "Unknown";
+        // Check verifier
+        const verifierProvince =
+            this.userMap[
+                Object.keys(this.userMap).find(
+                    (u) => u.toLowerCase() === level.verifier.toLowerCase()
+                )
+            ] || "Unknown";
 
-                    return province === this.selectedProvince;
-                });
-            });
-        },
+        if (verifierProvince === this.selectedProvince) return true;
+
+        // Check records
+        return level.records.some((r) => {
+            const province =
+                this.userMap[
+                    Object.keys(this.userMap).find(
+                        (u) => u.toLowerCase() === r.user.toLowerCase()
+                    )
+                ] || "Unknown";
+
+            return province === this.selectedProvince;
+        });
+    });
+},
         level() {
             return this.filteredList[this.selected]?.[0];
         },
         filteredRecords() {
-            if (!this.level) return [];
+    if (!this.level) return [];
 
-            if (this.selectedProvince === "All") return this.level.records;
+    const records = [];
 
-            return this.level.records.filter((r) => {
-                const province =
-                    this.userMap[
-                        Object.keys(this.userMap).find(
-                            (u) => u.toLowerCase() === r.user.toLowerCase()
-                        )
-                    ] || "Unknown";
+    // Include verifier
+    const verifierProvince =
+        this.userMap[
+            Object.keys(this.userMap).find(
+                (u) => u.toLowerCase() === this.level.verifier.toLowerCase()
+            )
+        ] || "Unknown";
 
-                return province === this.selectedProvince;
-            });
-        },
+    if (
+        this.selectedProvince === "All" ||
+        verifierProvince === this.selectedProvince
+    ) {
+        records.push({
+            user: this.level.verifier,
+            percent: 100,
+            link: this.level.verification,
+            mobile: false,
+            hz: "?",
+        });
+    }
+
+    // Other
+    this.level.records.forEach((r) => {
+        const province =
+            this.userMap[
+                Object.keys(this.userMap).find(
+                    (u) => u.toLowerCase() === r.user.toLowerCase()
+                )
+            ] || "Unknown";
+
+        if (
+            this.selectedProvince === "All" ||
+            province === this.selectedProvince
+        ) {
+            records.push(r);
+        }
+    });
+
+    return records;
+},
     },
     async mounted() {
         this.list = await fetchList();
