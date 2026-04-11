@@ -67,7 +67,7 @@ export default {
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(getGlobalRank(), 100, level.percentToQualify, filteredList.length) }}</p>
+                            <p>{{ score(getGlobalRank(), 100, level.percentToQualify, list.length) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
