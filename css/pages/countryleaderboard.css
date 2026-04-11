@@ -98,8 +98,11 @@
     align-items: center;
     line-height: 1.1;
 }
-
 .global-rank {
     font-size: 0.7em;
     opacity: 0.6;
+}
+.page-leaderboard .board tr {
+    margin: 0;
+    padding: 0;
 }
