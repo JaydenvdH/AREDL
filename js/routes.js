@@ -2,6 +2,7 @@ import List from './pages/List.js';
 import Leaderboard from './pages/Leaderboard.js';
 import Roulette from './pages/Roulette.js';
 import CountryLeaderboard from './pages/CountryLeaderboard.js';
+import CountryList from './pages/CountryList.js';
 
 
 export default [
@@ -9,4 +10,5 @@ export default [
     { path: '/leaderboard', component: Leaderboard },
     { path: '/roulette', component: Roulette },
     { path: '/countryleaderboard', component: CountryLeaderboard },
+    { path: '/countrylist', component: CountryList },
 ];
