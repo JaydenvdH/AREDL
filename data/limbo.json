@@ -8,12 +8,17 @@
     "percentToQualify": 100,
     "password": "772002",
     "records": [
-
-{
+        {
             "user": "Jorvan",
             "link": "https://www.youtube.com/watch?v=RaOnlWLnHs8",
             "percent": 100,
             "hz": 240
-}     
+        },   
+        {
+            "user": "Xurido",
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "percent": 100,
+            "hz": 240
+        }  
     ]
 }
