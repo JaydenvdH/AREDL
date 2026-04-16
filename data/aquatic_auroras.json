@@ -9,10 +9,16 @@
     "password": "789123",
     "records": [
         {
-      "user": "JannisTE",
-      "link": "https://youtu.be/7WOVQXXrOCk",
-      "percent": 100,
-      "hz": 240
-}
+            "user": "JannisTE",
+            "link": "https://youtu.be/7WOVQXXrOCk",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Melted",
+            "link": "https://www.youtube.com/watch?v=rCiyJ7jpAeU",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
