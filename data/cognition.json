@@ -78,6 +78,12 @@
     "link": "https://www.youtu.be/vW4aKAKUwe4",
     "percent": 100,
     "hz": 720     
+        },
+        {
+    "user": "Electro", 
+    "link": "https://youtu.be/rAsKBNgneoU",
+    "percent": 100,
+    "hz": 2  
         }
     ]
 }
