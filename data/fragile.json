@@ -2,53 +2,9 @@
     "id": 65588448,
     "name": "Fragile",
     "author": "Endlevel",
-    "creators": ["Gablor","zYuko","XLSpiral","Deadlox","Endlevel","Artu","Minaxa","iIiViRuZiIi","Zentraa"],
-    "verifier": "vaen",
-    "verification": "https://www.youtube.com/watch?v=XfXzGv0oALw",
+    "creators": [],
+    "verifier": "Electro",
+    "verification": "https://www.youtube.com/watch?v=9m7fmOXJKdU",
     "percentToQualify": 100,
-    "password": "789123",
-    "records": [
-    {
-            "user": "Fabricorn",
-            "link": "https://youtu.be/47mvjGRf0bs",
-            "percent": 100,
-            "hz": 360
-},
-        {
-            "user": "Zoink",
-            "link": "https://youtu.be/CsTKqaFW1EY",
-            "percent": 100,
-            "hz": 321
-},
-{
-    "user": "ViperVenom95",
-    "link": "https://www.youtube.com/watch?v=hwC783uLgOA&ab_channel=ViperVenom95",
-    "percent": 100,
-    "hz": 288
-},
-        {
-        "user": "Teno",
-        "link": "https://youtu.be/8Whm5I5IcAc",
-        "percent": 100,
-        "hz": 360
-},
-{
-    "user": "Dylinator",
-    "link": "https://youtu.be/oOF2nhW4wiw",
-    "percent": 100,
-    "hz": 360
-},
-{
-    "user": "stav",
-    "link": "https://youtu.be/rVsabEgfD-o?si=xOP50UCptJPpg4Uh",
-    "percent": 100,
-    "hz": 288
-},
-{
-    "user": "miguel6456",
-    "link": "https://youtu.be/TUXMJNVexyg?si=_v9Xz1HHM8uMe_lt",
-    "percent": 100,
-    "hz": 360
-}
-    ]
+    "records": []
 }
