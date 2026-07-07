@@ -7,5 +7,14 @@
     "verification": "https://www.youtube.com/watch?v=1Kmb43BbYbk",
     "percentToQualify": 100,
     "password": "Free to Copy",
-    "records": []
+    "records": [
+
+ {
+            "user": "GDLNB",
+            "link": "https://www.youtube.com/watch?v=aqPz1rAxxmE",
+            "percent": 100,
+            "hz": 360
+}
+        
+    ]
 }
