@@ -7,11 +7,13 @@
 "verification": "https://youtu.be/QE20oUSZ2U0",
 "percentToQualify": 100,
 "records": [
+    
             {
             "user": "Xurido",
             "link": "https://www.youtube.com/watch?v=lKJf3D6FChY",
             "percent": 100,
             "hz": 240
 }
+    
     ]
 }
