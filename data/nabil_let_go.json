@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/Mqs82aJDClI?si=_tCMvtP2nsFnk09v",
     "percentToQualify": 100,
     "password": "676767676767676767677",
-    "records": []
+    "records": [
+                {
+            "user": "Xurido",
+            "link": "https://youtu.be/KlU-XbD2jXI",
+            "percent": 100,
+            "hz": 240
+    }
+    ]
 }
