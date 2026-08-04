@@ -15,7 +15,8 @@
             "percent": 100,
             "hz": 360
 
-},{
+},
+        {
 
             "user": "Caveman_Melvin",
             "link": "https://www.youtube.com/watch?v=xH1qGQXCS7U",
@@ -24,7 +25,8 @@
 
 
 
-},{
+},
+        {
 
             "user": "Airi",
             "link": "https://www.youtube.com/watch?v=aHCY-Pf1_rQ",
@@ -55,7 +57,8 @@
             "link": "https://youtu.be/PvCJOKBz0so?si=x0G44VUZtQ4wo2wd",
             "percent": 100,
             "hz": 240 
-        }, {
+        }, 
+        {
             "user": "Vankley",
             "link": "https://www.youtube.com/watch?v=BGtjikCuKO4",
             "percent": 100,
@@ -85,10 +88,5 @@
             "percent": 100,
             "hz": 480
         }
-    ]
-}
-
-
-        
     ]
 }
