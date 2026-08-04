@@ -12,11 +12,18 @@
             "link": "https://youtu.be/W2ek0H4g1NU",
             "percent": 100,
             "hz": 240
-},    {
+},    
+        {
             "user": "ItzLegendSTP",
             "link": "https://www.youtube.com/watch?v=Wbl9PRHEGPY",
             "percent": 100,
             "hz": 240
+},
+                {
+            "user": "luna",
+            "link": "https://www.youtube.com/watch?v=_2FA_LzuBtM",
+            "percent": 100,
+            "hz": 480
 }  
     ]
 }
