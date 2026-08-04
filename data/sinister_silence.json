@@ -6,5 +6,12 @@
     "verifier": "Melted",
     "verification": "https://youtu.be/FG5tXp7N1ZE?si=Jj9WX3VQf3zTr-bL",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+                {
+            "user": "luna",
+            "link": "https://www.youtube.com/watch?v=MPxaXQYqos8",
+            "percent": 100,
+            "hz": 480
+    }
+    ]
 }
