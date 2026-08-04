@@ -30,6 +30,12 @@
             "link": "https://youtu.be/vLguCpWRkls?si=yLlxWPTQ5lZkxTPV",
             "percent": 100,
             "hz": 240
+        },
+            {
+            "user": "luna",
+            "link": "https://www.youtube.com/watch?v=1cniZc8Y014",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
