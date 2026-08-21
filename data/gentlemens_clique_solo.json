@@ -1,17 +1,23 @@
 {
-    "id": 85231431,
-    "name": "Gentlemens Clique (Solo)",
-    "author": "Alphirox",
-    "creators": ["Alphirox", "DnouZ", "NathanYAY"],
-    "verifier": "Batle",
-    "verification": "https://youtu.be/vVchK_0UDHE",
+    "id": 67,
+    "name": "Sanctity",
+    "author": "Amplitron⁩",
+    "creators": [],
+    "verifier": "Melted",
+    "verification": "https://www.youtube.com/watch?v=4X4Twor5HbA",
     "percentToQualify": 100,
     "records": [
         {
-            "user": "derpyfaceddude",
-            "link": "https://www.youtube.com/watch?v=a1Zxvpijoys",
+            "user": "w5678rr",
+            "link": "https://www.youtube.com/watch?v=ougbL4pCw-Y",
             "percent": 100,
-            "hz": 144
+            "hz": 14434535346
+    },
+        {
+            "user": "Vankley",
+            "link": "https://www.youtube.com/watch?v=zH58rpy451o",
+            "percent": 100,
+            "hz": 1445736854723456
     }
     ]
 }
