@@ -12,6 +12,12 @@
             "link": "https://www.youtube.com/watch?v=-Sct67UJy1U",
             "percent": 100,
             "hz": 480
+    },
+              {
+            "user": "djackv",
+            "link": "https://www.youtube.com/watch?v=CfOOChbTMH4",
+            "percent": 100,
+            "hz": 240
     }
     ]
 }
