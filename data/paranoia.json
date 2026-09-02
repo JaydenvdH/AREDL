@@ -7,6 +7,12 @@
     "verification": "https://youtu.be/ZuuQPOvR6Gw?si=zeeeGaPMnaBI0QLh",
     "percentToQualify": 100,
     "password": "",
-    "records": []
-
+    "records": [
+               {
+            "user": "GDLNB",
+            "link": "https://www.youtube.com/watch?v=2blssAHOhlw",
+            "percent": 100,
+            "hz": 360
+    }
+    ]
 }
