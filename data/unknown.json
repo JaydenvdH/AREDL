@@ -12,6 +12,18 @@
             "link": "https://youtu.be/kxIRnZXCj20?si=2u7Mt1r0LucKoaIx",
             "percent": 100,
             "hz": 240
+    },
+           {
+            "user": "aidennocap",
+            "link": "https://www.youtube.com/watch?v=xcDR3dei4H4",
+            "percent": 100,
+            "hz": 480
+    },
+               {
+            "user": "leviabbink",
+            "link": "https://www.youtube.com/watch?v=cs5Svt3Jw0o",
+            "percent": 100,
+            "hz": 1000
     }
     ]
 }
