@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/moyfDME2AHQ?si=R24HRSHIPsAfaUkG",
     "percentToQualify": 100,
     "password": "1441",
-    "records": []
+    "records": [
+                   {
+            "user": "Majin",
+            "link": "https://www.youtube.com/watch?v=zs6R1lGT-cY",
+            "percent": 100,
+            "hz": 480
+    }
+    ]
 }
