@@ -8,16 +8,16 @@
     "percentToQualify": 100,
     "records": [
         {
+            "user": "Vankley",
+            "link": "https://www.youtube.com/watch?v=zH58rpy451o",
+            "percent": 100,
+            "hz": 240
+    },
+            {
             "user": "w5678rr",
             "link": "https://www.youtube.com/watch?v=ougbL4pCw-Y",
             "percent": 100,
             "hz": 14434535346
-    },
-        {
-            "user": "Vankley",
-            "link": "https://www.youtube.com/watch?v=zH58rpy451o",
-            "percent": 100,
-            "hz": 1445736854723456
     },
           {
             "user": "YoshiiPz",
