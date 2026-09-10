@@ -22,5 +22,12 @@
     "percentToQualify": 100,
     "password": "No Copy",
     "song": 678780,
-    "records": []
+    "records": [
+                          {
+            "user": "GDLNB",
+            "link": "https://www.youtube.com/watch?v=d_gnHA-99dU",
+            "percent": 100,
+            "hz": 360
+    }
+    ]
 }
