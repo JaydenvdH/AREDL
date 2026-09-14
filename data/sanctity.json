@@ -30,6 +30,12 @@
             "link": "https://www.youtube.com/watch?v=vTHXLLWQGNY",
             "percent": 100,
             "hz": 360
+    },
+                {
+            "user": "BossOfCats",
+            "link": "https://www.youtube.com/watch?v=JwB4cUKzB_M",
+            "percent": 100,
+            "hz": 480
     }
     ]
 }
