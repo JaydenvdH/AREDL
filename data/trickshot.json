@@ -6,5 +6,12 @@
     "verifier": "CreatorTC16",
     "verification": "https://youtu.be/DioPhOWUzQQ?si=hg1VtlNTVG-JhGLX",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+                           {
+            "user": "GDLNB",
+            "link": "https://youtu.be/2Ot05nuUusI",
+            "percent": 100,
+            "hz": 360
+    }
+    ]
 }
