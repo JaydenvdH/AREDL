@@ -1,10 +1,17 @@
 {
     "id": 113220284,
     "name": "The Plunge",
-    "author": "poopus",
-    "creators": ["poopus"],
+    "author": "Dolabill",
+    "creators": ["Dolabill"],
     "verifier": "w5678rr",
     "verification": "https://youtu.be/igaQDw97qKc?si=xZkyrVZiPoEERtsR",
     "percentToQualify": 100,
-    "records": []
+    "records": [
+                         {
+            "user": "GDLNB",
+            "link": "https://www.youtube.com/watch?v=YcuJC8FoPj4",
+            "percent": 100,
+            "hz": 360
+    }
+    ]
     }
