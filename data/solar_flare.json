@@ -6,5 +6,12 @@
     "verifier": "Caveman_Melvin",
     "verification": "https://youtu.be/NqZyPMIhtoo?si=EYi0es16i8OjuoGa",
     "percentToQualify": 100,
-    "records": [ ]
+    "records": [ 
+                           {
+            "user": "Majin",
+            "link": "https://youtu.be/L3zAr3kUXZo",
+            "percent": 100,
+            "hz": 480
+    }
+    ]
 }
